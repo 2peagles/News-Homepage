@@ -36,7 +36,7 @@
   text-transform: capitalize;
 }
 button:not(.navbtn){
-  padding:1rem 2rem;
+  padding:1rem 2.5rem;
   cursor: pointer;
   border:none;
   font-weight: 700;
@@ -115,7 +115,7 @@ button:hover:not(.navbtn), button:focus:not(.navbtn){
     grid-template-rows: repeat(3, 1fr);
   }
   .hero {
-      margin-top: 10px;
+      margin-top: 50px;
       grid-area: 1 / 1 / 3 / 3;
     }
    .hero_content {
@@ -132,7 +132,7 @@ button:hover:not(.navbtn), button:focus:not(.navbtn){
       line-height: 1em;
     }
     .news {
-      margin-top:75px;
+      margin-top:120px;
       /* row start col start row end col end */
       grid-area: 1 / 3 / 3 / 3;
     }
